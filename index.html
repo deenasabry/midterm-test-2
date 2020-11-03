@@ -52,7 +52,7 @@ var svg = d3.select("body").append("svg")
     .attr("class", "chordgraph")
     .attr("transform", "translate(" + width/2 + "," + height/2 + ")");
 
-d3.csv("ATF.csv").then(function(d){
+d3.csv("atf.csv").then(function(d){
 
     /*
      * IMPORTANT! Specify your first column of data here (see example data)
